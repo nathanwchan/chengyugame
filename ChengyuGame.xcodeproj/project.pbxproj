@@ -18,6 +18,11 @@
 		7E48578F16C3E2BF0026B17C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E48578E16C3E2BF0026B17C /* Default-568h@2x.png */; };
 		7E48579216C3E2BF0026B17C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48579016C3E2BF0026B17C /* MainStoryboard.storyboard */; };
 		7E48579516C3E2BF0026B17C /* ChengyuGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48579416C3E2BF0026B17C /* ChengyuGameViewController.m */; };
+		7E4857A116C3E6BA0026B17C /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4857A016C3E6BA0026B17C /* Tile.m */; };
+		7E4857A416C3EE990026B17C /* CharacterTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4857A316C3EE990026B17C /* CharacterTile.m */; };
+		7E4857A716C532920026B17C /* CharacterTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4857A616C532920026B17C /* CharacterTileView.m */; };
+		7E4857B416CC700F0026B17C /* CharacterTileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4857B316CC700F0026B17C /* CharacterTileCollectionViewCell.m */; };
+		7E4857B716CFAB110026B17C /* ChengyuGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4857B616CFAB110026B17C /* ChengyuGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		7E48579116C3E2BF0026B17C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7E48579316C3E2BF0026B17C /* ChengyuGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChengyuGameViewController.h; sourceTree = "<group>"; };
 		7E48579416C3E2BF0026B17C /* ChengyuGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChengyuGameViewController.m; sourceTree = "<group>"; };
+		7E48579F16C3E6BA0026B17C /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tile.h; path = Model/Tile.h; sourceTree = "<group>"; };
+		7E4857A016C3E6BA0026B17C /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tile.m; path = Model/Tile.m; sourceTree = "<group>"; };
+		7E4857A216C3EE990026B17C /* CharacterTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterTile.h; path = Model/CharacterTile.h; sourceTree = "<group>"; };
+		7E4857A316C3EE990026B17C /* CharacterTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterTile.m; path = Model/CharacterTile.m; sourceTree = "<group>"; };
+		7E4857A516C532920026B17C /* CharacterTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTileView.h; sourceTree = "<group>"; };
+		7E4857A616C532920026B17C /* CharacterTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTileView.m; sourceTree = "<group>"; };
+		7E4857B216CC700F0026B17C /* CharacterTileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTileCollectionViewCell.h; sourceTree = "<group>"; };
+		7E4857B316CC700F0026B17C /* CharacterTileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTileCollectionViewCell.m; sourceTree = "<group>"; };
+		7E4857B516CFAB110026B17C /* ChengyuGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChengyuGame.h; path = Model/ChengyuGame.h; sourceTree = "<group>"; };
+		7E4857B616CFAB110026B17C /* ChengyuGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChengyuGame.m; path = Model/ChengyuGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +98,14 @@
 		7E48577E16C3E2BF0026B17C /* ChengyuGame */ = {
 			isa = PBXGroup;
 			children = (
-				7E48578716C3E2BF0026B17C /* ChengyuGameAppDelegate.h */,
-				7E48578816C3E2BF0026B17C /* ChengyuGameAppDelegate.m */,
 				7E48579016C3E2BF0026B17C /* MainStoryboard.storyboard */,
 				7E48579316C3E2BF0026B17C /* ChengyuGameViewController.h */,
 				7E48579416C3E2BF0026B17C /* ChengyuGameViewController.m */,
+				7E4857A516C532920026B17C /* CharacterTileView.h */,
+				7E4857A616C532920026B17C /* CharacterTileView.m */,
+				7E4857B216CC700F0026B17C /* CharacterTileCollectionViewCell.h */,
+				7E4857B316CC700F0026B17C /* CharacterTileCollectionViewCell.m */,
+				7E48579E16C3E5A70026B17C /* Model */,
 				7E48577F16C3E2BF0026B17C /* Supporting Files */,
 			);
 			path = ChengyuGame;
@@ -96,6 +114,8 @@
 		7E48577F16C3E2BF0026B17C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E48578716C3E2BF0026B17C /* ChengyuGameAppDelegate.h */,
+				7E48578816C3E2BF0026B17C /* ChengyuGameAppDelegate.m */,
 				7E48578016C3E2BF0026B17C /* ChengyuGame-Info.plist */,
 				7E48578116C3E2BF0026B17C /* InfoPlist.strings */,
 				7E48578416C3E2BF0026B17C /* main.m */,
@@ -105,6 +125,19 @@
 				7E48578E16C3E2BF0026B17C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E48579E16C3E5A70026B17C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E4857B516CFAB110026B17C /* ChengyuGame.h */,
+				7E4857B616CFAB110026B17C /* ChengyuGame.m */,
+				7E48579F16C3E6BA0026B17C /* Tile.h */,
+				7E4857A016C3E6BA0026B17C /* Tile.m */,
+				7E4857A216C3EE990026B17C /* CharacterTile.h */,
+				7E4857A316C3EE990026B17C /* CharacterTile.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +210,11 @@
 				7E48578516C3E2BF0026B17C /* main.m in Sources */,
 				7E48578916C3E2BF0026B17C /* ChengyuGameAppDelegate.m in Sources */,
 				7E48579516C3E2BF0026B17C /* ChengyuGameViewController.m in Sources */,
+				7E4857A116C3E6BA0026B17C /* Tile.m in Sources */,
+				7E4857A416C3EE990026B17C /* CharacterTile.m in Sources */,
+				7E4857A716C532920026B17C /* CharacterTileView.m in Sources */,
+				7E4857B416CC700F0026B17C /* CharacterTileCollectionViewCell.m in Sources */,
+				7E4857B716CFAB110026B17C /* ChengyuGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
